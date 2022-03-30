@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#container {
+    width: 10cm;    height: 8cm;
+    padding: 40px;
+    
+    align-items: center;
+    
+    display: flex;  flex-direction: column;
+
+    border: solid;  border-color: gainsboro;
+    border-width: 1.5px;  border-radius: 4px;
+}
+
+div#txtlogin {
+    
+    height: 24px;
+}
+
+
+div#subtitulo > p{
+    height: 35px;
+}
+
+
+div#input{
+    font-size: medium;
+    height: 100px;
+    display: flex;  flex-direction: column;
+}
+
+
+div#input > input{
+    width: 6.2CM;   height: 25px;
+    border-width: 0.4mm;    border-radius: 3px;
+
+}
+
+div#penultimate-text {
+    color: antiquewhite;
+    width: 400px;
+    color: #5f6368;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+div#last {
+    
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+div#criar{
+    width: 10px;
+    display: flex;
+}
+
+div#last > button{
+    cursor: pointer;
+    background-color: #1a73e8;
+    color: white;
+    width: 2.3cm;
+    height: 6.6mm;
+    border: none;
+    border-radius: 2px;
+}
+
